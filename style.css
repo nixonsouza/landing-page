@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+    
+}
+
+#logotopo{
+margin-left: 56px;
+margin-top: 52px;
+}
+
+#titulo-menusuperior{
+    margin-left: 172px;
+    margin-top: 71px;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+#texto-menusuperior{
+    margin-left: 172px;
+    margin-top: 32px;
+    padding-bottom: 151px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#menusuperior{
+    background-image: url(imagens/backgroundsuperior.svg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: cover;
+    }
+
+#menuinformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+.textoinformativo{
+    font-size: 20px;
+    color: #122235;
+    display: flex;
+    align-items: center;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 60px 0px 50px 250px;
+}
+
+#titulovideo{
+    color: #247BA0;
+    font-size: 32px;
+    margin-top: 30px;
+}
+
+#textovideo{
+    color: #383838;
+    font-size: 16px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+   
+    
+}
+
+#titulocarrossel{
+    text-align: center;
+    font-size: 32px;
+    color: #EAECE5;
+}
+
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+    margin: 25px;
+    
+ }
+
+#setaesquerda{
+    display: none;
+    margin-left: 250px;
+}
+
+#bruna{
+    display: none;
+    margin-right: 160px;
+}
+
+.seta{
+    margin-top: 70px;
+    cursor: pointer;
+    
+}
+    .seta:hover{
+        transform: translatey(20px);
+        transition-duration: 0.5s;
+    }
+#leonardo{
+    margin-left: 250px;
+}
+#setadireita{
+    margin-right: 190px;
+}
+#tituloformulario{
+    font-size: 32px;
+    color: #383838;
+    text-align: center;
+    margin-top: 22px;
+}
+  input{
+    padding-left: 19px;
+    width: 413px;
+    height: 53px;
+    background-color: #EAECE5;
+    display: flex;
+    align-items: center;
+    display: block;
+    margin: auto;
+    margin-top: 47px;
+    border: 0px;
+    border-radius: 8px;
+    font-weight: bolder;
+  }
+  button{
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 335px;
+    height: 53px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 109px;
+    background-color: #247BA0;
+    border: 0px;
+    border-radius: 8px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: rgb(13, 54, 82);
+    transform: translateY(-8px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px rgba(4, 0, 32, 0.377);
+  }
