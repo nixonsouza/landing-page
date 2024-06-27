@@ -90,12 +90,14 @@ margin-top: 52px;
 
 #setaesquerda{
     display: none;
-    margin-left: 250px;
+    margin-left: 100px;
+    margin-right: 30px;
 }
 
 #bruna{
     display: none;
-    margin-right: 160px;
+    margin-right: 300px;
+    margin-left: 70px;
 }
 
 .seta{
@@ -108,11 +110,10 @@ margin-top: 52px;
         transition-duration: 0.5s;
     }
 #leonardo{
-    margin-left: 250px;
+    margin-left: 100px;
+    margin-right: 50px;
 }
-#setadireita{
-    margin-right: 190px;
-}
+
 #tituloformulario{
     font-size: 32px;
     color: #383838;
